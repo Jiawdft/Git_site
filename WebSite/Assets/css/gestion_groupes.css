@@ -1,0 +1,30 @@
+h1
+{
+    text-align: center;
+}
+
+.promotion_selection
+{
+    text-align: center;
+}
+
+.conteneur
+{
+    display : flex;
+
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+.contenu
+{
+    margin-top: 1em;
+}
+
+#button_ajouter_groupe
+{
+
+
+    margin: 5em;
+
+}

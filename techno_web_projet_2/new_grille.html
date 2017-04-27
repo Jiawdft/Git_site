@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf8' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Nouvelle grille</title>
+		
+		<!-- Feuille de style -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	</head>
+
+	<body>
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="identifiants col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
+					<h1 class="titre_form">Nouvelle grille de compétences</h1>
+			    	<form action="" method="post">
+						<div class="form-group">
+							<label for="Nom_grille">Nom de la grille</label>
+							<input type="text" class="form-control" placeholder="Saisissez le nom de la grille">
+						</div>
+						<div class="form-group">
+							<label for="competences">Choix des compétences</label><br />
+							<label for="comp1">Compétence 1 :</label><input type="radio" name="competences" id="comp1" value="comp1" /><br />
+							<label for="comp2">Compétence 2 :</label><input type="radio" name="competences" id="comp2" value="comp2" /><br />
+							<label for="comp3">Compétence 3 :</label><input type="radio" name="competences" id="comp3" value="comp3" /><br />
+							<label for="comp4">Compétence 4 :</label><input type="radio" name="competences" id="comp4" value="comp4" /><br />
+						</div>
+						<div class="form-group">
+							<label for="competences">Liste des compétences sélectionnées</label><br />
+							<ul>
+								<li>Compétence 1</li>
+								<li>Compétence 2</li>
+								<li>Compétence 3</li>
+								<li>Compétence 4</li>
+							</ul>
+						</div>
+						<button type="submit" class="btn btn-default bouton_connexion">Valider la grille</button></br></br>
+					</form>
+
+			    </div>
+			</div>
+		</div>
+
+	</body>	
+</html>

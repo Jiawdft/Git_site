@@ -1,0 +1,11 @@
+.page {
+position:relative;
+}
+
+.identifiants {
+position: absolute;
+left: 5%;
+height: 90%;
+width: 90%;
+top: 5%;
+}
